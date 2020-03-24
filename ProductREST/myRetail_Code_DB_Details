@@ -1,0 +1,24 @@
+
+
+Create MySQL DB
+Create Maven Project
+Configure Datasource Properties
+Code Domain Model class
+Code Repository Interface
+Code Service class
+Code Spring Boot Application class
+Code Rest Controller Class : RESTful crud API
+Test Using CURL
+
+
+
+create database mydb;
+
+create table 'mydb'.'product'(
+		'id' INT NOT NULL AUTO_INCREMENT,
+		'name' VARCHAR(45) NOT NULL,
+		'price' FLOAT NOT NULL,
+		PRIMARY KEY('id'));
+		
+		
+   
